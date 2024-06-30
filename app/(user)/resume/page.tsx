@@ -4,9 +4,7 @@ import PdfViewer from "@/components/ui/PdfViewer";
 
 import TitleSectionPageContainer from "@/components/utils/TitleSectionPageContainer";
 
-const Resume = ({
-  allowFullScreen = true, // Default value if not provided
-}) => (
+const Resume = () => (
   <SectionContainer >
     <div className='w-full flex flex-col items-center gap-8' style={{width: '100%', height: '100vh' }}>
       <TitleSectionPageContainer title='Resume' />
