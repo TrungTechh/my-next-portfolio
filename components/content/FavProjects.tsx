@@ -99,7 +99,7 @@ const favProjects = [
     title: 'Services/Traffic/Weather Real-Time Analytics',
     category: 'Airflow - Kafka - Spark - Cassandra - PowerBI - Yolov8',
     repo: 'https://github.com/TrungTechh/Weather-and-Daily-Life',
-    // link: 'https://www.youtube.com/watch?v=sk_V4kcfIMI&t=67s'
+    link: 'https://www.youtube.com/watch?v=sk_V4kcfIMI&t=67s'
   }
 ];
 
