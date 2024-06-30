@@ -3,12 +3,11 @@
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import LinksNav, { navItemsSelected } from './LinksNav';
+import { useEffect } from 'react';
 
 const NavItem = () => {
 
   let pathname = usePathname() as string;
-
-  if (pathname.includes('/blog/')) pathname = '/blog';
 
   return (
     <>
@@ -19,7 +18,7 @@ const NavItem = () => {
               <motion.div
                 className='absolute bg-neutral-800 h-[34px] rounded-md z-[-1]'
                 layoutId='test2'
-                initial={{ opacity: 0, x: navItemsSelected[pathname].x, y: navItemsSelected[pathname].y }}
+                initial={{ opacity: 0, x: navItemsSelected[pathname].x, y: navItemsSelected[pathname].y}}
                 animate={{
                   opacity: 1,
                   x: navItemsSelected[pathname].x,
@@ -35,11 +34,7 @@ const NavItem = () => {
           </>
         ) : null}
 
-      {
-
         <LinksNav />
-
-      }
     </>
   );
 }

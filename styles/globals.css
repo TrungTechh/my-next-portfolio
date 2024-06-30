@@ -8,7 +8,7 @@ html,body {
 
 body, * {
   box-sizing: content-box;
-  cursor: none;
+  /* cursor: none; */
 }
 
 ::selection {

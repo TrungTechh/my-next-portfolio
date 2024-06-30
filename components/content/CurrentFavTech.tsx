@@ -11,6 +11,6 @@ const CurrentFavTech = () => {
       </div>
     </AnimationContainer>
   )
-}
+} 
 
 export default CurrentFavTech;

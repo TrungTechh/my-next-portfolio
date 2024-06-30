@@ -7,18 +7,13 @@ const LinksMenu = [
     delay: '150ms'
   },
   {
-    name: 'About',
-    path: '/about',
-    delay: '175ms'
-  },
-  {
     name: 'Projects',
     path: '/projects',
     delay: '200ms'
   },
   {
-    name: 'Blog',
-    path: '/blog',
+    name: 'Resume',
+    path: '/resume',
     delay: '225ms'
   },
 ]

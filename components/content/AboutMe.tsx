@@ -9,7 +9,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        I am a passionate dev with +2 years of work experience and love learning new technologies since I discovered programming, I am currently learning the way to be a DevOps specialist.
+      I am a highly motivated and enthusiastic <b>Data Engineering</b> with a strong passion for leveraging technology to drive data-driven solutions. With a comprehensive skill set and proficiency in tools such as Python, SQL, Azure and Spark. I focus on creating efficient data pipelines, ingesting, transforming and visualizing data to unlock its full potential.
       </p>
 
     </AnimationContainer>
