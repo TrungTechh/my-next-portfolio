@@ -10,7 +10,7 @@ const allProjectsInfo = [
     id: '1',
     title: 'IMDB Movies ETL with Azure',
     des: 'Utilizing Azure technologies to establish a film scraping pipeline from the IMDB website, preparing the data for subsequent analysis',
-    category: 'Azure Function - Azure Databricks - Azure DLS - Spark Streaming - PowerBI',
+    category: 'azure functions - azure databricks - Azure dls - spark streaming - power bi',
     repo: 'https://github.com/TrungTechh/IMDBMovieETL',
     link: 'https://www.youtube.com/watch?v=yB6MsZQX9TE'
     
@@ -19,7 +19,7 @@ const allProjectsInfo = [
     id: '2',
     title: 'Flight ETL Pipeline',
     des: 'Built a pipeline for processing and storing large datasets with robust data modeling.',
-    category: 'Spark - HDFS - Airflow',
+    category: 'spark - hdfs - airflow',
     repo: 'https://github.com/TrungTechh/Flights-Etl-Pipeline',
     link: 'https://www.youtube.com/watch?v=sk_V4kcfIMI&t=67s'
   },
@@ -27,7 +27,7 @@ const allProjectsInfo = [
     id: '3',
     title: 'Services/Traffic/Weather Real-Time Analytics',
     des: 'Developing an application that can perform real-time analysis of the weather conditions, service quality, and traffic status in Ho Chi Minh City.',
-    category: 'Airflow - Spark - Kafka - PowerBI',
+    category: 'airflow - spark - kafka - power bi',
     repo: 'https://github.com/TrungTechh/Weather-and-Daily-Life',
     link: 'https://github.com/TrungTechh/Weather-and-Daily-Life'
   }
