@@ -25,7 +25,7 @@ const Hero = () => {
           height={176}
           width={176}
           src='/trungtran.jpg'
-          sizes='30vw'
+          sizes='40vw'
           priority
           className='rounded-[9px] brightness-100 hover:brightness-50 transition ease'
         />

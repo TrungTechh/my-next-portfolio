@@ -28,7 +28,7 @@ const CurrentTimeLineExp = () => {
 
         <TimelineEvent.Description>
           
-          <strong className='text-white'> Data Analyst Intern</strong>
+          <strong className='text-white'> Data Engineer Intern</strong>
           <li> Converted approximately 100 SAP crystal reports into paginated reports using PowerBI Report Builder.</li>
           <li> Provided guidance to counterparts on the utilization of the PowerBI Report Builder.</li>
         </TimelineEvent.Description>
