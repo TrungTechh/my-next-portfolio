@@ -9,13 +9,13 @@ const CurrentTimeLineExp = () => {
       <TimelineEvent active>
 
         <TimelineEvent.Title>
-          Freelance | Feb 2024 - Currently
+          TC Data | Jun 2024 - Currently
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          <li> Developed and maintained web crawlers to extract data from various websites using Python and Scrapy.</li>
-          <li> Created interactive and insightful reports using Power BI.</li>
-          <li> Designed and implemented scalable and efficient database schemas for various projects.</li>
+          <strong className='text-white'> Trainee Data Engineer </strong>
+          <li> Developmodules using SQL Server to help stakeholders meet their data needs.</li>
+          <li> Engageindiscussions with stakeholders to thoroughly verify and understand the issues present in the data.</li>
         </TimelineEvent.Description>
 
       </TimelineEvent>
