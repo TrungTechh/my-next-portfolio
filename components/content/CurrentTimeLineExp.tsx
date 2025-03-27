@@ -9,7 +9,25 @@ const CurrentTimeLineExp = () => {
       <TimelineEvent active>
 
         <TimelineEvent.Title>
-          TC Data | Jun 2024 - Currently
+         7-Eleven | Sep 2024 - Present
+        </TimelineEvent.Title>
+
+        <TimelineEvent.Description>
+          <strong className='text-white'> Fresher Data Engineer </strong>
+          <li> Collaborate with cross-functional teams to address and fulfill their data requirements.</li>
+          <li> Develop and maintain real-time streaming pipelines that consume data from Kafka and transform it into ClickHouse.</li>
+          <li> Design and implement Airflow jobs to process large datasets in batch, including automated notifications to Google Chat for job errors, missing data, or inactive Kafka consumer groups.</li>
+          <li> Utilize App Script and n8n to integrate with external services such as Google, Jira for seamless data flow and automation.</li>
+          <li> Developed a chatbot for generating insights from Superset data using OpenAI API.</li>
+          <li> Enabled real-time replication from PostgreSQL using logical replication and Airbyte CDC.</li>
+        </TimelineEvent.Description>
+
+      </TimelineEvent>
+
+      <TimelineEvent>
+
+        <TimelineEvent.Title>
+          TC Data | Jun 2024 - Sep 2024
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
